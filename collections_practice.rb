@@ -63,6 +63,7 @@ def count_elements(array)
   end
   
   def merge_data(set1, set2)
+    set1.each
     
   
   
