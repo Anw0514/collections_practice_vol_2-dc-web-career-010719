@@ -68,8 +68,8 @@ end
 
 def find_cool(array)
   hash = {}
-  schools.each do |school, location|
-    location.each do |location, where|
+  schools.each do |school, city|
+    city.each do |city, where|
       check = hash[where]
       if check == nil
         hash[where] = [school]
