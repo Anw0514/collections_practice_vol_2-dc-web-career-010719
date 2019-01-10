@@ -20,7 +20,8 @@ def contain_a(array)
 end 
 
 def first_wa(array)
-  find
+  array.find do |element|
+    element.start_with?("wa")
 end 
 
 def remove_non_strings(array)
