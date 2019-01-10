@@ -83,7 +83,7 @@ def organize_schools(schools)
       check = hash[city]
       if check == nil
         hash[city] = [school]
-      elsif check == !nil
+      else
         array = []
         array << check
         array << school
