@@ -71,9 +71,9 @@ def count_elements(array)
         new_hash[key] = value
       end
     end
-    #iterate over the array of a hash of hashes to get to the values of the last level of hashes
+    #iterate over the array of a hash of hashes to get to the values of the first level of hashes
     set2.each do |hash|
-      hash.each do |
+      hash.each do |key, value|
         
     
   
