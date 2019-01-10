@@ -60,8 +60,8 @@ def merge_data(keys, values)
     thing1 = object[:first_name]
     otherObject = data[0][thing1]
 
-    otherObject.each do |property,value|
-      object[property] = value
+    otherObject.each do |thing2,value|
+      object[thing2] = value
     end
   end
 end
