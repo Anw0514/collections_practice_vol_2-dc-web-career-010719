@@ -48,7 +48,7 @@ def count_elements(array)
       new_array << {count: value, name: name}
     end
   end
-  new_array
+  return new_array
 end
   
 def merge_data(set1, set2)
