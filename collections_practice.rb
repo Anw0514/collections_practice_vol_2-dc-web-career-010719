@@ -63,8 +63,12 @@ def count_elements(array)
   end
   
   def merge_data(set1, set2)
+    new_hash = {}
     #iterate over the array of hashes to get to each hash
-    set1.each do |
+    set1.each do |hash|
+      #iterate over the hash
+      hash.each do |key, value|
+        
     
   
   
