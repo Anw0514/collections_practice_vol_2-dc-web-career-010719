@@ -28,7 +28,6 @@ describe 'collections practice vol 2.' do
                      :height => 60,
                   :last_name => "dubs"
             }
-        }
     ]
   }
 
