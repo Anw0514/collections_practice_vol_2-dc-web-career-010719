@@ -80,6 +80,7 @@ def count_elements(array)
       end
     end
     return new_hash
+  end
         
     
   
