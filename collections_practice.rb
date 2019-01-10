@@ -39,7 +39,7 @@ end
 
 def count_elements(array)
   count = {}
-  new_array = []
+  newar = []
   array.each do |item|
     count[item] += 1
   end
@@ -48,7 +48,7 @@ def count_elements(array)
       new_array << {count: value, name: name}
     end
   end
-  return new_array
+  return newar
 end
   
 def merge_data(set1, set2)
