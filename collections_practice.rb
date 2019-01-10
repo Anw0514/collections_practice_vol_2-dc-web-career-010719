@@ -50,9 +50,10 @@ end
 # end
   
 def merge_data(set1, set2)
-  new_hash = {}
+  newar = []
   #iterate over the array of hashes to get to each hash
   set1.each do |hash|
+    new_hash = {}
     #iterate over the hash & add each pair to the new hash
     hash.each do |key, value|
       new_hash[key] = value
