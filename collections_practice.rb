@@ -49,7 +49,7 @@ def count_elements(array)
   end
   count.each do |key, value|
     key.each do |label, name|
-      new_array << {count: value, name: name}
+      newar << {count: value, name: name}
     end
   end
   return newar
