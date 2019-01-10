@@ -40,9 +40,9 @@ end
 def count_elements(array)
   newar = []
   array.each do |hash|
-    newhash = {}
+    newhash = {count: 0, }
     hash.each do |key, value|
-      if value.exists?
+      
         
       
     
