@@ -64,6 +64,5 @@ def count_elements(array)
   
   
   
-  #puts count
-  count
+  
 end
