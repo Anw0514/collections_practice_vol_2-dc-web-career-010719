@@ -77,19 +77,19 @@ def find_cool(array)
 end
 
 def organize_schools(schools)
-  hash = {}
+  newhash = {}
   schools.each do |school, location|
     location.each do |location, city|
-      check = hash[city]
+      check = newhash[city]
       if check == nil
-        hash[city] = [school]
+        newhash[city] = [school]
       else
         array = []
         array << check
         array << school
-        hash[city] = array.flatten
+        newhash[city] = array.flatten
       end
     end
   end
-  hash
+  newhash
 end
