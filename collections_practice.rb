@@ -70,3 +70,6 @@ def find_cool(array)
   array.each do |hash|
     if hash[:temperature] == "cool"
       return hash[:name]
+    end
+  end
+end
