@@ -42,8 +42,9 @@ def count_elements(array)
   array.each do |hash|
     newhash = {}
     hash.each do |key, value|
-      testhash = hash
-      if 
+      if value.exists?
+        
+      
     
   
 end
