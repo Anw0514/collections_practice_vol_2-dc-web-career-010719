@@ -63,25 +63,25 @@ def count_elements(array)
   end
 end
   
-  def merge_data(set1, set2)
-    new_hash = {}
-    #iterate over the array of hashes to get to each hash
-    set1.each do |hash|
-      #iterate over the hash & add each pair to the new hash
-      hash.each do |key, value|
-        new_hash[key] = value
-      end
+def merge_data(set1, set2)
+  new_hash = {}
+  #iterate over the array of hashes to get to each hash
+  set1.each do |hash|
+    #iterate over the hash & add each pair to the new hash
+    hash.each do |key, value|
+      new_hash[key] = value
     end
-    #iterate over the array of a hash of hashes to get to the values of the first level of hashes
-    set2.each do |hash|
-      hash.each do |key, valuehash|
-        valuehash.each do |attribute, data|
-          new_hash[attribute] = data
-        end
-      end
-    end
-    return new_hash
   end
+  #iterate over the array of a hash of hashes to get to the values of the first level of hashes
+  set2.each do |hash|
+    hash.each do |key, valuehash|
+      valuehash.each do |attribute, data|
+        new_hash[attribute] = data
+      end
+    end
+  end
+  return new_hash
+end
         
     
   
