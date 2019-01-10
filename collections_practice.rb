@@ -73,4 +73,5 @@ def find_cool(array)
       newar << hash
     end
   end
+  newar
 end
