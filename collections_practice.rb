@@ -44,7 +44,7 @@ def count_elements(array)
     if count.include?(item)
       count[item] += 1
     else
-      count[item] = 0
+      count[item] = 1
     end
   end
   count.each do |key, value|
