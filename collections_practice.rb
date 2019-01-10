@@ -70,6 +70,7 @@ def count_elements(array)
       hash.each do |key, value|
         new_hash[key] = value
       end
+    end
         
     
   
