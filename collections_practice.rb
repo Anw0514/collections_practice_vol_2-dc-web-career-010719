@@ -71,6 +71,7 @@ def count_elements(array)
         new_hash[key] = value
       end
     end
+    #iterate over the array of hashes
         
     
   
