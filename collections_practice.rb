@@ -79,10 +79,10 @@ end
 def organize_schools(schools)
   hash = {}
   schools.each do |school, location|
-    location.each do |location, where|
-      check = hash[where]
+    location.each do |location, city|
+      check = hash[city]
       if check == nil
-        hash[where] = [school]
+        hash[city] = [school]
       elsif check != nil
         array = []
         array << check
