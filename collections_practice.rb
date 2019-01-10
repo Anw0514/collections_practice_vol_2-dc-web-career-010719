@@ -40,7 +40,7 @@ end
 def count_elements(array)
   newar = []
   array.each do |hash|
-    newhash = {count: 0, }
+    newhash = {count: 0}
     hash.each do |key, value|
       
         
