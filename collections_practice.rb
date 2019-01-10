@@ -75,3 +75,20 @@ def find_cool(array)
   end
   newar
 end
+
+def organize_schools(schools)
+  hash = {}
+  schools.each do |school, location|
+    location.each do |location, where|
+      check = hash[where]
+      if check == nil
+        hash[where] = [school]
+      elsif check != nil
+        array = []
+        array << check
+        array << school
+        hash[where] = array.flatten
+      end
+    end
+  end
+end
