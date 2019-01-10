@@ -61,6 +61,7 @@ def count_elements(array)
     end
     i = i + 1
   end
+end
   
   def merge_data(set1, set2)
     new_hash = {}
