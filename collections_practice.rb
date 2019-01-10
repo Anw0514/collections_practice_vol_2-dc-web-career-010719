@@ -58,6 +58,7 @@ def merge_data(set1, set2)
     hash.each do |key, value|
       new_hash[key] = value
     end
+    
   end
   #iterate over the array of a hash of hashes to get to the values of the first level of hashes
   set2.each do |hash|
