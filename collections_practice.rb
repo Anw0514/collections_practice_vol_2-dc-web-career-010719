@@ -55,8 +55,16 @@ def count_elements(array)
   return newar
 end
   
-def merge_data(set1, set2)
-  
+def merge_data(keys, values)
+  keys.each do |object|
+    matchingProperty = object[:first_name]
+    puts object
+    otherObject = data[0][matchingProperty]
+
+    otherObject.each do |property,value|
+      object[property] = value
+    end
+  end
 end
         
     
