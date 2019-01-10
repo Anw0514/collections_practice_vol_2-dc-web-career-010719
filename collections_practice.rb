@@ -41,7 +41,7 @@ def count_elements(array)
   count = {}
   newar = []
   array.each do |item|
-    if count[item].exists?
+    if count[item] == !nil
       count[item] += 1
     else
       count[item] = 0
