@@ -67,18 +67,11 @@ def merge_data(keys, values)
 end
 
 def find_cool(array)
-  hash = {}
-  schools.each do |school, city|
-    city.each do |city, location|
-      check = hash[location]
-      if check == nil
-        hash[location] = [school]
-      else
-        array = []
-        array << check
-        array << school
-        hash[where] = array.flatten
-      end
+  newar = []
+  array.each do |hash|
+    if hash[:temperature] == "cool"
+      newar << hash
     end
   end
+  newar
 end
