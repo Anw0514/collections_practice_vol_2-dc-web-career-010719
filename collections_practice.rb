@@ -57,7 +57,7 @@ end
   
 def merge_data(keys, values)
   keys.each do |object|
-    matchingProperty = object[:first_name]
+    attribute = object[:first_name]
     otherObject = data[0][matchingProperty]
 
     otherObject.each do |property,value|
