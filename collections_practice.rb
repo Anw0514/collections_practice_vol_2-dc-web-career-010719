@@ -66,9 +66,10 @@ def count_elements(array)
     new_hash = {}
     #iterate over the array of hashes to get to each hash
     set1.each do |hash|
-      #iterate over the hash
+      #iterate over the hash & add each pair to the new hash
       hash.each do |key, value|
-        
+        new_hash[key] = value
+      end
         
     
   
