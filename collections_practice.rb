@@ -39,7 +39,8 @@ end
 
 def count_elements(array)
   newar = []
-  array.each do 
+  array.each do |hash|
+    if newar.include?(hash)
   
 end
   
