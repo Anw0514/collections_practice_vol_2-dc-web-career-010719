@@ -22,6 +22,7 @@ end
 def first_wa(array)
   array.find do |element|
     element.start_with?("wa")
+  end
 end 
 
 def remove_non_strings(array)
