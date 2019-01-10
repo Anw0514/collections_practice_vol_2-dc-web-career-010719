@@ -80,4 +80,5 @@ def find_cool(array)
         hash[where] = array.flatten
       end
     end
+  end
 end
