@@ -37,17 +37,17 @@ def remove_non_strings(array)
   newar
 end 
 
-def count_elements(array)
-  newar = []
-  array.each do |hash|
-    newhash = {count: 0}
-    hash.each do |key, value|
+# def count_elements(array)
+#   newar = []
+#   array.each do |hash|
+#     newhash = {count: 0}
+#     hash.each do |key, value|
       
         
       
     
   
-end
+# end
   
 def merge_data(set1, set2)
   new_hash = {}
