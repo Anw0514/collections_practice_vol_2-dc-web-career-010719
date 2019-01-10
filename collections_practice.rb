@@ -62,7 +62,7 @@ def count_elements(array)
     i = i + 1
   end
   
-  
+  def merge_data
   
   
 end
