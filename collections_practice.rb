@@ -20,13 +20,7 @@ def contain_a(array)
 end 
 
 def first_wa(array)
-  i = 0 
-  while i < array.length
-    if array[i].instance_of? String && array[i].start_with?("wa")
-      return array[i]
-    end
-    i = i + 1
-  end
+  find
 end 
 
 def remove_non_strings(array)
