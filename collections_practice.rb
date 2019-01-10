@@ -40,7 +40,7 @@ end
 def count_elements(array)
   count = Hash.new(0)
   new_array = []
-  list.each do |item|
+  array.each do |item|
     count[item] += 1
   end
   count.each do |key, value|
