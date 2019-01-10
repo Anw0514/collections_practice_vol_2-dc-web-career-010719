@@ -39,6 +39,7 @@ end
 
 def count_elements(array)
   newar = []
+  newhash = {}
   array.each do |hash|
     
   
