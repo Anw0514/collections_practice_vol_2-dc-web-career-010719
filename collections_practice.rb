@@ -21,7 +21,7 @@ end
 
 def first_wa(array)
   array.find do |element|
-    element.start_with?("wa")
+    element.instance_of?(String) && element.start_with?("wa")
   end
 end 
 
