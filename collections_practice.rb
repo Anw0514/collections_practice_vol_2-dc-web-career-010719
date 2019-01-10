@@ -70,10 +70,10 @@ def find_cool(array)
   hash = {}
   schools.each do |school, city|
     city.each do |city, location|
-      check = hash[where]
+      check = hash[location]
       if check == nil
-        hash[where] = [school]
-      elsif check != nil
+        hash[location] = [school]
+      else
         array = []
         array << check
         array << school
