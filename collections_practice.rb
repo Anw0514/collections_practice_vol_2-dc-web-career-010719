@@ -29,7 +29,7 @@ def remove_non_strings(array)
   i = 0 
   newar = []
   while i < array.length
-    if array[i].instance_of? String
+    if array[i].instance_of?(String)
       newar << array[i]
     end
     i = i + 1
@@ -40,7 +40,7 @@ end
 def count_elements(array)
   newar = []
   array.each do |hash|
-    if newar.include?(hash)
+    
   
 end
   
