@@ -38,25 +38,9 @@ def remove_non_strings(array)
 end 
 
 def count_elements(array)
-  count = []
-  i = 0
-  while i < array.length
-    elem_exist = false
-    
-    j = 0
-    while j < count.length
-        if array[i][:name] == count[j][:name]
-          count[j][:count] = count[j][:count] + 1
-          elem_exist = true
-        end
-      j = j + 1
-    end
-    
-    if !elem_exist
-      count << {:name => array[i][:name], :count => 1}
-    end
-    i = i + 1
-  end
+  newar = []
+  array.each do 
+  
 end
   
 def merge_data(set1, set2)
