@@ -69,6 +69,7 @@ def count_elements(array)
       #iterate over the hash
       hash.each do |key, value|
         
+        
     
   
   
