@@ -87,7 +87,7 @@ def organize_schools(schools)
         array = []
         array << check
         array << school
-        hash[where] = array.flatten
+        hash[city] = array.flatten
       end
     end
   end
